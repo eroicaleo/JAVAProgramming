@@ -39,6 +39,9 @@ public class Student extends Person {
         s2.sayHello();
         s3.sayHello();
         s2.sayHello(s3);
+
+        // Exception in thread "main" java.lang.ClassCastException: Person cannot be cast to Student
+        // Student s4 = (Student) p;
     }
 
 }
